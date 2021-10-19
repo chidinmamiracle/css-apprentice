@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      .header {
+        background-color: #333;
+        text-align: center;
+        padding: 20px;
+      }
+      /* styling the link bar*/
+      .link {
+        overflow: hidden;
+        background-color: seagreen;
+      }
+      /* styling the click me */
+      .link a {
+        float: left;
+        display: block;
+        color: #000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* change color on hover pseudo class*/
+      .link a:hover {
+        background-color: steelblue;
+        color: white;
+      }
+      /*equl column that float next to each other*/
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 15px;
+        background-color: silver;
+      }
+      /* pseudo element clear float after column*/
+      .row:after {
+        content: '';
+        clear: both;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 10px;
+        background-color: seagreen;
+      }
+    </style>
+    <title>layout</title>
+  </head>
+  <body>
+    <section class="header">
+      <h1>Header</h1>
+    </section>
+    <section class="link">
+      <a href="link">click me</a>
+      <a href="link">click me</a>
+      <a href="link">click me</a>
+    </section>
+    <section class="row">
+      <section class="column">
+        <h2>column</h2>
+        <p>
+          Mother and daughter is the best relationship that exist between a
+          caring,loving and sweet mother with an adorable kid,its a co existance
+          where a mother cannot do without her daughter neither can her daughter
+          do without her mother. This relationship started way back 2016 when
+          the adorable baby was born,hence joy,happiness and laughter of the
+          mother knows no bound, and thats were the joy of motherhood come in
+          existance big time,however this picture here explain how close this
+          mother and daughter has been since the two came into the life of each
+          other,which explain that life has been so rosy between the two folks
+          and is really worth emulating,oh !what a sweet relationship and
+          togetherness that exist here.
+        </p>
+      </section>
+      <section class="column">
+        <h2>column</h2>
+        <p>
+          Mother and daughter is the best relationship that exist between a
+          caring,loving and sweet mother with an adorable kid,its a co existance
+          where a mother cannot do without her daughter neither can her daughter
+          do without her mother. This relationship started way back 2016 when
+          the adorable baby was born,hence joy,happiness and laughter of the
+          mother knows no bound, and thats were the joy of motherhood come in
+          existance big time,however this picture here explain how close this
+          mother and daughter has been since the two came into the life of each
+          other,which explain that life has been so rosy between the two folks
+          and is really worth emulating,oh !what a sweet relationship and
+          togetherness that exist here.
+        </p>
+      </section>
+      <section class="column">
+        <h2>column</h2>
+        <p>
+          Mother and daughter is the best relationship that exist between a
+          caring,loving and sweet mother with an adorable kid,its a co existance
+          where a mother cannot do without her daughter neither can her daughter
+          do without her mother. This relationship started way back 2016 when
+          the adorable baby was born,hence joy,happiness and laughter of the
+          mother knows no bound, and thats were the joy of motherhood come in
+          existance big time,however this picture here explain how close this
+          mother and daughter has been since the two came into the life of each
+          other,which explain that life has been so rosy between the two folks
+          and is really worth emulating,oh !what a sweet relationship and
+          togetherness that exist here.
+        </p>
+      </section>
+    </section>
+    <section class="footer">
+      <h1><footer>All right reserve @chimma 2021</footer></h1>
+    </section>
+  </body>
+</html>
